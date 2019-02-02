@@ -1,0 +1,38 @@
+<!-- //パンくず
+<!-- CopyRight http://bulldra.http://bulldra.hatenablog.com 
+<script src="https://www.google.com/jsapi"></script>
+<script src="http://bulldra.github.io/commons.js" charset="utf-8"></script>
+<script src="http://bulldra.github.io/breadcrumb.js" charset="utf-8"></script>
+-->
+
+
+<!-- //トップに戻るボタンの設定-->
+<div id="page-top">
+<!--
+ <a id="move-page-top"><i class="fa fa-arrow-circle-o-up fa-5x"></i></a>
+-->
+<!--
+ <a id="move-page-top"><img src="http://img.f.hatena.ne.jp/images/fotolife/n/nyanco696/20170508/20170508165053.png" alt="to TOP" width="90px"></a>
+</div>
+-->
+
+<!-- //トップに戻るレンジの設定 -->
+<!--
+<script>
+
+  $(window).scroll(function(){
+    var now = $(window).scrollTop();
+    if(now > 500){
+      $("#page-top").fadeIn("slow");
+    }else{
+      $("#page-top").fadeOut("slow");
+    }
+  });
+  $("#move-page-top").click(function(){
+    $("html,body").animate({scrollTop:0},"slow");
+  });
+</script>
+-->
+
+<!-- //アウトバウンド計測-->
+<script src="http://webfood.info/javascripts/gasetting.js"></script>
