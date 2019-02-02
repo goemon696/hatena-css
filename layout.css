@@ -171,17 +171,6 @@ a.keyword {
 
 }
 
-
-
-
-@media screen and (max-width:960px){
-#menu-content > li > ul.second-content{
-    visibility: visible;
-	}
-}
-
-
-	
 	
 
 /* 吹き出し */
