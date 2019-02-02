@@ -69,27 +69,13 @@ margin-bottom:10px;
 
 /**************** / basic ****************/
 
-
-
-
-
 /* 外郎売り */
 .ui-furigana{font-size:0.9em;line-height:1em;color:green;display:block;margin-bottom:0 !important;}
 
-
-
-
-
-
-
-
 .breadcrumb-inner{
-	/*width:1024px;*/
 	width:100%;
 	margin:auto 0;
 }
-
-
 
 a.keyword {
     border: 0 !important;
@@ -188,7 +174,15 @@ a.keyword {
 
 
 
+@media screen and (max-width:960px){
+#menu-content > li > ul.second-content{
+    visibility: visible;
+	}
+}
 
+
+	
+	
 
 /* 吹き出し */
 /* 吹き出しのCSS　*/
