@@ -1,9 +1,51 @@
+html, body {
+  font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', Osaka, 'MS PGothic', Arial, Helvetica, Verdana, sans-serif;
+}
 
-/* emとstrong */
+.ss{font-size:0.8em; line-height:1.3em;}
+.ll{font-size:1.2em; line-height:1.8em;}
+.lll{font-size:1.6em; line-height:2.0em;}
+.tr{text-align:right;}
+
+/**************** basic ****************/
+
+/* blog title */
+#title a {font-size:0.8em;line-height:3em;}
+
+#blog-title {
+    text-align: center;
+    font-weight: bold;
+    font-size:1.0em;
+    border-bottom:0px solid #000000; /* 下のボーダー */
+}
+
+#blog-title, #title a {font-weight:bold;color:#000000;}
+
+
+/* 記事見出し */
+.entry-content h2 {
+  font-size:2em;
+  font-weight:bold;
+  color: #353535; /* 文字色 */
+}
+.entry-content h3 {
+  font-size:1.4em;
+  font-weight:bold;
+  color: #353535; /* 文字色 */
+}
+.entry-content h4 {
+  font-weight:bold;
+  font-size:1em;
+  line-height:1.1em;
+}
+.entry-content h5 {
+  font-weight:bold;
+}
+
+/* em と strong  「***はemとstrongの掛け合わせ」 */
 .entry-content em{color:red;font-style:normal;}/* * は赤字 */
 /*.entry-content strong{background: linear-gradient(transparent 50%, yellow 50%)}/* ** はマーカー */
 .entry-content strong{font-weight:bold;}/* ** は太字 */
-/* ***はemとstrongの掛け合わせ */
 
 /* blockquote */
 blockquote {
@@ -12,15 +54,7 @@ blockquote {
   line-height:2em;
 }
 
-/*追加*/
-.ui-furigana{
-font-size:0.9em;
-line-height:1em;
-color:green;
-display:block;
-margin-bottom:0 !important;
-}
-
+/* 注釈 */
 .note01{
     margin-bottom: 30px;
     font-size: 12px;
@@ -32,6 +66,17 @@ margin-bottom:0 !important;
 border:1px solid #eeeeee;
 margin-bottom:10px;
 }
+
+/**************** / basic ****************/
+
+
+
+
+
+/* 外郎売り */
+.ui-furigana{font-size:0.9em;line-height:1em;color:green;display:block;margin-bottom:0 !important;}
+
+
 
 
 
@@ -170,76 +215,6 @@ a.keyword {
     color: #5A5A5A;
 }
 
-html, body {
-  font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', Osaka, 'MS PGothic', Arial, Helvetica, Verdana, sans-serif;
-}
-
-
-
-
-
-
-
-
-
-.ss{font-size:0.8em; line-height:1.3em;}
-.ll{font-size:1.2em; line-height:1.8em;}
-.lll{font-size:1.6em; line-height:2.0em;}
-
-.tr{text-align:right;}
-
-
-
-
-
-
-
-/* blog title */
-#title a {
-    font-size:0.8em;
-    line-height:3em;
-}
-
-
-#blog-title {
-    text-align: center;
-    font-weight: bold;
-    font-size:1.0em;
-    border-bottom:0px solid #000000; 
-  /* 下のボーダー */
-}
-
-#blog-title, #title a {
-  /*background-color: #DFDBED;*/
-  font-weight:bold;
-  color:#000000;
-}
-
-
-
-
-
-/*記事見出し*/
-.entry-content h2 {
-  font-size:2em;
-  font-weight:bold;
-  color: #353535; /* 文字色 */
-}
-.entry-content h3 {
-  font-size:1.4em;
-  font-weight:bold;
-  color: #353535; /* 文字色 */
-}
-
-.entry-content h4 {
-  font-weight:bold;
-  font-size:1em;
-  line-height:1.1em;
-}
-
-.entry-content h5 {
-  font-weight:bold;
-}
 
 /*----------------------------------------------------------------------------
 ------------------------------------------------------------------------------
