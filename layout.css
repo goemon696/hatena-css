@@ -7,7 +7,6 @@ html, body {
 .lll{font-size:1.6em; line-height:2.0em;}
 .tr{text-align:right;}
 
-.hatena-citation{display:none !important;}
 .hatena-citation {display:none !important;}
 
 
@@ -16,7 +15,6 @@ html, body {
 /* blog title */
 #title a {font-size:0.8em;line-height:3em;font-weight:bold;}
 
-.entry-title-link {font-weight:bold;}
 
 #blog-title {
     text-align: center;
