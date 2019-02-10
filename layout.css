@@ -2,15 +2,20 @@ html, body {
   font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', Osaka, 'MS PGothic', Arial, Helvetica, Verdana, sans-serif;
 }
 
+/**************** custom ****************/
+
+/* サイトリンクbox下のリンク非表示 */
+.hatena-citation {display:none;}
+/* カテゴリー */
+.hatena-module-category .hatena-module-title::before{
+    content: "\f022";
+}
+
+/**************** basic ****************/
 .ss{font-size:0.8em; line-height:1.3em;}
 .ll{font-size:1.2em; line-height:1.8em;}
 .lll{font-size:1.6em; line-height:2.0em;}
 .tr{text-align:right;}
-
-.hatena-citation {display:none;}
-
-
-/**************** basic ****************/
 
 /* blog title */
 #title a {font-size:0.8em;line-height:3em;font-weight:bold;}
