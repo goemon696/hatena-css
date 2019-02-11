@@ -88,6 +88,7 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 .entry-content p a{
   font-weight:bold;
   color:#149e7b;
+  color:#4e678b; /*リンクカラー*/
 }
 
 /* 注釈 */
