@@ -21,18 +21,9 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 content: '\f00c'; /*プロフィール*/
 margin-right:10px;
 }
-.hatena-module-recent-entries .hatena-module-title:before {
-content: '\f09e'; /*最新記事*/
-}
-.hatena-module-entries-access-ranking .hatena-module-title:before {
-content: '\f201'; /*注目記事*/
-}
 .hatena-module-category .hatena-module-title:before {
 content: '\f022'; /*カテゴリー*/
 margin-right:10px;
-}
-.hatena-module-related-entries .hatena-module-title:before {
-content: '\f0ca'; /*関連記事*/
 }
 
 /*タイトル下のカテゴリをタグアイコンに*/
@@ -42,8 +33,10 @@ content: '\f0ca'; /*関連記事*/
 	margin-right:10px;
 }
 .categories a {
+	font-size:0.8em;
 	border-radius:5px;
-	padding:2px 5px;
+	border:none;
+	padding:2px 10px;
 }
 
 /**************** basic ****************/
