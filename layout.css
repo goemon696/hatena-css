@@ -21,7 +21,7 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 	background:#eee;
 	padding:2px 10px;
 }
-.hatena-urllist a {border:none;}
+.hatena-module-category a {border:none;}
 .hatena-module-category a::before {
 	border:none;
 	font-family:blogicon;
