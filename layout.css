@@ -27,9 +27,9 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 /* カテゴリをタグっぽく表示 */
 /* サイドカラム */
 .hatena-module-category .hatena-urllist li {
-
+	border:none;
 }
-.hatena-module-category .hatena-urllist > li {
+.hatena-module-category .hatena-urllist > a {
 	border-radius:10px;
 	border:none;
 	background:#eee;
