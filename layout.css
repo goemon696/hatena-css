@@ -10,7 +10,7 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 
 /*サイドバー、タイトル、アイコン*/
 .hatena-module-title:before {
-	font-family:blogicon;
+	font-family:FontAwesome;
 	font-size:1.5rem; 
 	font-weight:normal;
 }
