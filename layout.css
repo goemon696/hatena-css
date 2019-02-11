@@ -34,6 +34,11 @@ content: '\f279'; /*カテゴリー*/
 content: '\f0ca'; /*関連記事*/
 }
 
+/*タイトル下のカテゴリをタグアイコンに*/
+.entry-categories a::before {
+    content: '\f04a';
+}
+
 /**************** basic ****************/
 
 /* blog title */
