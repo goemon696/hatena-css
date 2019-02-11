@@ -32,7 +32,7 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 	background:#eee;
 	padding:2px 10px;
 }
-.hatena-urllist > a {
+.hatena-urllist > li,a {
 	border:none;
 }
 .hatena-module-category a::before {
@@ -87,8 +87,9 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 }
 .entry-content p a{
   font-weight:bold;
+/*リンクカラー*/
   color:#149e7b;
-  color:#4e678b; /*リンクカラー*/
+  color:#4e678b; 
 }
 
 /* 注釈 */
