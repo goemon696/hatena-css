@@ -4,8 +4,8 @@ html, body {
 
 /**************** custom ****************/
 
-/* サイトリンクbox下のリンク非表示 
-.hatena-citation {display:none;}*/
+/* 埋め込みサイトリンクボックス下のリンク非表示 */
+.hatena-citation {display:none;}
 /* カテゴリー */
 .hatena-module-category .hatena-module-title::before{
     content: "\f022";
