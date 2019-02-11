@@ -11,6 +11,15 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 /* 検索ボックス見出し非表示 
 .hatena-module-search-box >.hatena-module-title {display:none;} */
 
+/* 検索ボックス 広告に隠れる対策 */
+@media screen and (max-width: 620px) {
+.hatena-module-search-box >.hatena-module-title {
+	color:#fff;
+	height:100px;
+	}
+}
+
+
 /* サイドバータイトル */
 .hatena-module-title {font-weight:bold;font-size:1.2em;}
 
