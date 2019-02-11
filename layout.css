@@ -9,12 +9,12 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 .hatena-citation {display:none;}
 
 /*サイドバー、タイトル、アイコン*/
-.hatena-module-title:before {
+.hatena-module-title::before {
 	font-family:blogicon;
 	font-size:1.5rem; 
 	font-weight:bold;
 }
-.hatena-module-title .hatena-module-search-box{display:none;} 
+.hatena-module-search-box >.hatena-module-title {display:none;} 
 
 .hatena-module-profile .hatena-module-title:before {
 content: '\f2be'; /*プロフィール*/
