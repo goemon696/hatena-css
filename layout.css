@@ -7,9 +7,31 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 
 /* 埋め込みサイトリンクボックス下のリンク非表示 */
 .hatena-citation {display:none;}
-/* カテゴリー */
-.hatena-module-category .hatena-module-title::before{
-    content: "\f022";
+
+/*サイドバー、タイトル、アイコン*/
+.hatena-module-title:before {
+	font-family:blogicon;
+	font-size:1.5rem; 
+	font-weight:normal;
+}
+
+.hatena-module-profile .hatena-module-title:before {
+content: '\f2be'; /*プロフィール*/
+}
+.hatena-module-search-box .hatena-module-title:before {
+content: '\f002'; /*検索*/
+} 
+.hatena-module-recent-entries .hatena-module-title:before {
+content: '\f09e'; /*最新記事*/
+}
+.hatena-module-entries-access-ranking .hatena-module-title:before {
+content: '\f201'; /*注目記事*/
+}
+.hatena-module-category .hatena-module-title:before {
+content: '\f279'; /*カテゴリー*/
+}
+.hatena-module-related-entries .hatena-module-title:before {
+content: '\f0ca'; /*関連記事*/
 }
 
 /**************** basic ****************/
