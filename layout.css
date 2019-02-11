@@ -1,4 +1,7 @@
-html, body {font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', Osaka, 'MS PGothic', Arial, Helvetica, Verdana, sans-serif;}
+html, body {
+font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラギノ角ゴ Pro W3', 
+'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', Osaka, 
+'MS PGothic', Arial, Helvetica, Verdana, sans-serif;}
 
 /**************** custom ****************/
 
@@ -10,10 +13,6 @@ html, body {font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシッ
 }
 
 /**************** basic ****************/
-.ss{font-size:0.8em; line-height:1.3em;}
-.ll{font-size:1.2em; line-height:1.8em;}
-.lll{font-size:1.6em; line-height:2.0em;}
-.tr{text-align:right;}
 
 /* blog title */
 #title a {font-size:0.8em;line-height:3em;font-weight:bold;}
@@ -49,16 +48,11 @@ html, body {font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシッ
   color:#1841ce;
 }
 
-/* em と strong  「***はemとstrongの掛け合わせ」 */
-.entry-content em{color:red;font-style:normal;}/* * は赤字 */
-/*.entry-content strong{background: linear-gradient(transparent 50%, yellow 50%)}/* ** はマーカー */
-.entry-content strong{font-weight:bold;}/* ** は太字 */
-
 /* 注釈 */
 .note01{
     margin: 10px 0 30px;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 20px;
     color: #aaaaaa;
 }
 
@@ -69,6 +63,16 @@ margin:5px 0px;
 
 /* blockquote */
 blockquote {font-size:0.9em;font-style:normal;line-height:2em;}
+
+/* em と strong  「***はemとstrongの掛け合わせ」 */
+.entry-content em{color:red;font-style:normal;}/* * は赤字 */
+/*.entry-content strong{background: linear-gradient(transparent 50%, yellow 50%)}/* ** はマーカー */
+.entry-content strong{font-weight:bold;}/* ** は太字 */
+
+.ss{font-size:0.8em; line-height:1.3em;}
+.ll{font-size:1.2em; line-height:1.8em;}
+.lll{font-size:1.6em; line-height:2.0em;}
+.tr{text-align:right;}
 
 /**************** / basic ****************/
 
