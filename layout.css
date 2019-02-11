@@ -15,7 +15,7 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 @media screen and (max-width: 620px) {
 .hatena-module-search-box >.hatena-module-title {
 	color:#fff;
-	height:100px;
+	height:80px;
 	}
 }
 
