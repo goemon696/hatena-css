@@ -23,10 +23,6 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 	padding:2px 10px;
 }
 
-.hatena-module-category .hatena-urllist li a {
-    display:inline;
-}
-
 .hatena-module-category a::before {
 	font-family:blogicon;
 	content: '\f04a';
