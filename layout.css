@@ -8,8 +8,8 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 /* 埋め込みサイトリンクボックス下のリンク非表示 */
 .hatena-citation {display:none;}
 
-/* 検索ボックス見出し非表示 */
-.hatena-module-search-box >.hatena-module-title {display:none;} 
+/* 検索ボックス見出し非表示 
+.hatena-module-search-box >.hatena-module-title {display:none;} */
 
 /* サイドバータイトル */
 .hatena-module-title {font-weight:bold;font-size:1.2em;}
