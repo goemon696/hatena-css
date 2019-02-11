@@ -9,15 +9,16 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 .hatena-citation {display:none;}
 
 /*サイドバー、タイトル、アイコン*/
+.hatena-module-title {font-weight:bold;}
 .hatena-module-title::before {
 	font-family:blogicon;
 	font-size:1.5rem; 
-	font-weight:bold;
+	font-weight:normal;
 }
 .hatena-module-search-box >.hatena-module-title {display:none;} 
 
 .hatena-module-profile .hatena-module-title:before {
-content: '\f2be'; /*プロフィール*/
+content: '\f00c'; /*プロフィール*/
 }
 .hatena-module-recent-entries .hatena-module-title:before {
 content: '\f09e'; /*最新記事*/
