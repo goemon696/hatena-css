@@ -71,9 +71,9 @@ blockquote {
 
 /* 注釈 */
 .note01{
-    margin-bottom: 30px;
+    margin-bottom: 5px !important;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 20px;
     color: #aaaaaa;
 }
 
