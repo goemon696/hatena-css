@@ -1,6 +1,4 @@
-html, body {
-  font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', Osaka, 'MS PGothic', Arial, Helvetica, Verdana, sans-serif;
-}
+html, body {font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', Osaka, 'MS PGothic', Arial, Helvetica, Verdana, sans-serif;}
 
 /**************** custom ****************/
 
@@ -20,16 +18,12 @@ html, body {
 /* blog title */
 #title a {font-size:0.8em;line-height:3em;font-weight:bold;}
 
-
 #blog-title {
-    text-align: center;
-    font-weight: bold;
-    font-size:1.0em;
+    text-align: center;font-weight: bold;font-size:1.0em;
     border-bottom:0px solid #000000; /* 下のボーダー */
 }
 
-#blog-title, #title,.entry-title-link a {font-weight:bold;color:#000000;}
-
+#blog-title, #title,.entry-title-link a {font-weight:bold;color:#353535;}
 
 /* 記事見出し */
 .entry-content h2 {
@@ -50,28 +44,19 @@ html, body {
 .entry-content h5 {
   font-weight:bold;
 }
-
 .entry-content p a{
   font-weight:bold;
   color:#1841ce;
 }
-
 
 /* em と strong  「***はemとstrongの掛け合わせ」 */
 .entry-content em{color:red;font-style:normal;}/* * は赤字 */
 /*.entry-content strong{background: linear-gradient(transparent 50%, yellow 50%)}/* ** はマーカー */
 .entry-content strong{font-weight:bold;}/* ** は太字 */
 
-/* blockquote */
-blockquote {
-  font-size:0.9em;
-  font-style:normal;
-  line-height:2em;
-}
-
 /* 注釈 */
 .note01{
-    margin: 10px 0 20px;
+    margin: 10px 0 30px;
     font-size: 12px;
     line-height: 15px;
     color: #aaaaaa;
@@ -82,7 +67,14 @@ border:1px solid #eeeeee;
 margin:5px 0px;
 }
 
+/* blockquote */
+blockquote {font-size:0.9em;font-style:normal;line-height:2em;}
+
 /**************** / basic ****************/
+
+
+
+
 
 /* 外郎売り */
 .ui-furigana{font-size:0.9em;line-height:1em;color:green;display:block;margin-bottom:0 !important;}
