@@ -73,6 +73,7 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 .entry-content h3 {
   font-size:1.4em;
   font-weight:bold;
+  margin-top: 1.7em;
   color: #353535; /* 文字色 */
 }
 .entry-content h4 {
