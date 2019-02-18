@@ -20,7 +20,6 @@ font-family: YuGothic, 'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラ
 	}
 }
 
-
 /* サイドバータイトル */
 .hatena-module-title {font-weight:bold;font-size:1.2em;}
 
@@ -120,6 +119,28 @@ blockquote {font-size:0.9em;font-style:normal;line-height:2em;}
 .tr{text-align:right;}
 
 /**************** / basic ****************/
+
+
+/* ダウンロードボタン */
+/* ここから下がボタンのCSS　*/
+.btn-push {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+.btn-push:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
 
 
 
