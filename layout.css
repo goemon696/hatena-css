@@ -128,8 +128,6 @@ blockquote {font-size:0.9em;font-style:normal;line-height:2em;}
   text-align: center;
   background-color: #ffa300;
   font-size: 16px;
-  color: #FFF !important;
-  text-decoration: none !important;
   font-weight: bold;
   padding: 10px 24px;
   border-radius: 4px;
@@ -141,7 +139,10 @@ blockquote {font-size:0.9em;font-style:normal;line-height:2em;}
     border-bottom: none;
 }
 
-
+.btn-push a {
+  color: #FFF !important;
+  text-decoration: none !important;
+}
 
 
 
